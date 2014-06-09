@@ -1,0 +1,52 @@
+8
+
+dir
+5
+http://code.taobao.org/svn/loveand/trunk/src/app/loveand/domain
+http://code.taobao.org/svn/loveand
+
+
+
+2014-05-05T13:33:41.320527Z
+5
+haicuan139
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c9e30187-ea4c-4489-b492-0fa23ed43aec
+
+UpdateObj.java
+file
+
+
+
+
+2014-04-28T02:37:55.000000Z
+391efe8b5ff316cc2578db24f6b668ef
+2014-05-05T13:33:41.320527Z
+5
+haicuan139
+
+UserInfo.java
+file
+
+
+
+
+2014-04-28T02:37:55.000000Z
+09cf56c7babe49b744ca7b23b998539e
+2014-05-05T13:33:41.320527Z
+5
+haicuan139
+

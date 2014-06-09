@@ -1,0 +1,142 @@
+8
+
+dir
+1
+http://code.taobao.org/svn/loveand/trunk
+http://code.taobao.org/svn/loveand
+
+
+
+2014-04-14T06:46:48.975689Z
+1
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c9e30187-ea4c-4489-b492-0fa23ed43aec
+
+.classpath
+file
+5
+
+
+
+2014-04-27T09:54:45.000000Z
+49d55ca503ffeb00e5e65a7a2130cf12
+2014-05-05T13:33:41.320527Z
+5
+haicuan139
+
+.project
+file
+2
+
+
+
+2014-04-14T06:53:31.000000Z
+116b83266a32d9218df6070d3dbe8269
+2014-04-14T06:59:22.229940Z
+2
+haicuan139
+
+.settings
+dir
+
+
+
+add
+
+AndroidManifest.xml
+file
+5
+
+
+
+2014-05-03T10:06:32.000000Z
+9da118d5b79b6d91b03e6061f5720c13
+2014-05-05T13:33:41.320527Z
+5
+haicuan139
+
+assets
+dir
+
+drawable
+dir
+
+gen
+dir
+
+
+
+add
+
+ic_launcher-web.png
+file
+2
+
+
+
+2014-04-14T06:47:36.000000Z
+03162f4ee138bcbae36f78b1d25dbd5b
+2014-04-14T06:59:22.229940Z
+2
+haicuan139
+has-props
+
+libs
+dir
+
+lint.xml
+file
+5
+
+
+
+2014-04-29T13:21:23.000000Z
+1ce274a186a2afb9f76542702f6ecc4d
+2014-05-05T13:33:41.320527Z
+5
+haicuan139
+
+proguard-project.txt
+file
+2
+
+
+
+2014-04-14T06:47:35.000000Z
+18bfe77c342b4698f1cef19cf8d918e2
+2014-04-14T06:59:22.229940Z
+2
+haicuan139
+
+project.properties
+file
+5
+
+
+
+2014-04-29T13:21:23.000000Z
+8058edc0ea9cfb9b792eb9f29e0708d6
+2014-05-05T13:33:41.320527Z
+5
+haicuan139
+
+res
+dir
+
+src
+dir
+

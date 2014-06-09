@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoveAnd</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="left_and_right">Left and Right</string>
+    <string name="login">登录</string>
+    <string name="login_username_hit">手机号码/邮箱帐号</string>
+    <string name="login_password_hit">8位以上字符</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="user_name">用户名</string>
+    <string name="password">密码</string>
+    <string name="repetition_pass">确认密码</string>
+    <string name="everyone_saysay">随便看看</string>
+    <string name="reg_user_bt_test">注册账户</string>
+    <string name="gl_wait">请稍等</string>
+    <string name="login_hasuser">已有账户</string>
+    <string name="next_str">下一步</string>
+    <string name="reg_title_str">注册(1/2)</string>
+    <string name="reg2_title_str">注册(2/2)</string>
+    <string name="nickname">昵称</string>
+    <string name="gender">性别</string>
+    <string name="reg_nickname_hit">给自己取个名字呗</string>
+    <string name="done">完成</string>
+    <string name="recover_mail_str">输入需要找回密码的邮箱地址</string>
+    <string name="email_str">电子邮箱</string>
+
+</resources>

@@ -1,0 +1,95 @@
+package app.loveand.fragment;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import net.tsz.afinal.http.AjaxCallBack;
+import net.tsz.afinal.http.AjaxParams;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.os.Environment;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import app.loveand.utils.Logger;
+
+public class HomeFragmet extends BaseFragment {
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		ViewPager pager = new ViewPager(getActivity());
+		List<View> items = new ArrayList<View>();
+		ImageView i1 = new ImageView(getActivity());
+		i1.setBackgroundColor(Color.RED);
+		ImageView i2 = new ImageView(getActivity());
+		i2.setBackgroundColor(Color.BLUE);
+		items.add(i1);
+		items.add(i2);
+		pager.setAdapter(new MyPagerAdapter(items));
+		File f = new File(Environment.getExternalStorageDirectory(),"file.png");
+		AjaxParams params = new AjaxParams();
+		params.put("username", "小建小建小建");
+		params.put("password", "123456");
+		params.put("city", "北京");
+		if(f.exists()){
+			try {
+				params.put("file", f);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		getHttpClient().post("http://192.168.1.195/api/Test", params, new AjaxCallBack<String>() {
+			@Override
+			public void onSuccess(String t) {
+				super.onSuccess(t);
+				showToast("上传成功:"+t);
+			}
+			@Override
+			public void onFailure(Throwable t, int errorNo, String strMsg) {
+				super.onFailure(t, errorNo, strMsg);
+				showToast("上传失败:"+strMsg);
+			}
+		});
+		}else{
+			Logger.i("FILE", "File No found");
+		}
+		return pager;
+	}
+	class MyPagerAdapter extends PagerAdapter{
+		public List<View> mListViews;
+
+		public MyPagerAdapter(List<View> mListViews) {
+			this.mListViews = mListViews;
+		}
+
+		@Override
+		public void destroyItem(View view, int arg1, Object arg2) {
+			((ViewPager) view).removeView(mListViews.get(arg1));
+		}
+		@Override
+		public int getCount() {
+			return mListViews.size();
+		}
+
+		@Override
+		public Object instantiateItem(View arg0, int arg1) {
+			((ViewPager) arg0).addView(mListViews.get(arg1), 0);
+			return mListViews.get(arg1);
+		}
+
+		@Override
+		public boolean isViewFromObject(View arg0, Object arg1) {
+			return arg0 == (arg1);
+		}
+	}
+	@Override
+	public void onClick(View v) {
+		super.onClick(v);
+		
+	}
+}

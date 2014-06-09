@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/take_photo_bg_selector"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="12dp"
+            android:text="像风一样的男人:"
+            android:textColor="#7d7d7d" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="15dp"
+            android:text="“今天热成狗了！今天热成狗了！今天热成狗了！今天热成狗了！今天热成狗了！”"
+            android:textColor="#393939"
+            android:textSize="18sp" />
+
+		
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="#00000000"
+                android:text="两天前"
+                android:layout_marginLeft="130dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:textColor="#7d7d7d" />
+
+    </LinearLayout>
+
+</LinearLayout>

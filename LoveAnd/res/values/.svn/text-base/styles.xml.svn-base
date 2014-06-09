@@ -1,0 +1,65 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="login_button">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/login_button_margintop</item>
+        <item name="android:textColor">@color/login_edit_text_bg</item>
+        <item name="android:textSize">@dimen/login_button_text_size</item>
+        <item name="android:layout_height">@dimen/login_layout_height</item>
+        <item name="android:layout_width">@dimen/login_layout_width</item>
+        <item name="android:background">@drawable/login_button_selector</item>
+        <item name="android:text">@string/login</item>
+    </style>
+
+    <style name="login_username_edittext">
+        <item name="android:background">@color/login_edit_text_bg</item>
+        <item name="android:layout_height">@dimen/login_username_layout_height</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:hint">@string/login_username_hit</item>
+    </style>
+    <style name="reg_nickname_edittext">
+        <item name="android:background">@color/login_edit_text_bg</item>
+        <item name="android:layout_height">@dimen/login_username_layout_height</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:hint">@string/reg_nickname_hit</item>
+    </style>
+
+    <style name="login_password_edittext" parent="login_username_edittext">
+        <item name="android:hint">@string/login_password_hit</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <style name="reg_repetition_edittext" parent="login_username_edittext">
+        <item name="android:hint">@string/repetition_pass</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="sky_blue" parent="android:Widget.Button">
+        <item name="android:background">@color/background</item>
+    </style>
+    <style name="saysay_text" parent="android:Widget.Button">
+        <item name="android:background">@color/background</item>
+        <item name="android:drawableBottom">@drawable/grey_underline</item>
+    </style>
+    <style name="line_between">
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:background">@color/line_between</item>
+    </style>
+</resources>

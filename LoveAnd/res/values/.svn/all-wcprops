@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/loveand/!svn/ver/2/trunk/res/values
+END
+dimens.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/loveand/!svn/ver/5/trunk/res/values/dimens.xml
+END
+colors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/loveand/!svn/ver/5/trunk/res/values/colors.xml
+END
+strings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/loveand/!svn/ver/5/trunk/res/values/strings.xml
+END
+attrs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/loveand/!svn/ver/5/trunk/res/values/attrs.xml
+END
+styles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/loveand/!svn/ver/5/trunk/res/values/styles.xml
+END
